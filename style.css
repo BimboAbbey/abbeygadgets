@@ -1,0 +1,525 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background:rgb(211,211,211, 0.3);
+  font-family:Roboto, arial;
+}
+button{
+padding: 10px 30px;
+  border-radius: 5px;
+  border-style: none;
+  background:gray;
+  color:white;
+  font-weight:700;
+}
+.abbey{
+  font-size: 13px;
+  color:green;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background:white;
+  box-shadow: rgba(17,12,46,0.15) 0px 48px 100px 0px;
+  position: sticky;
+  top: 0;
+  z-index:999;
+  font-size:1.375rem;
+  padding: 6px;
+}
+#navbar img{
+  height:10vh;
+  width:10%;
+}
+span{
+  font-family:;
+  font-size:1.2rem;
+}
+#submit{
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-style: none;
+  background:gray;
+  color:white;
+  font-weight:700;
+  margin-right:10px;
+}
+#header{
+  background-image:url('pictures/camera.jpg');
+  background-repeat:no-repeat;
+ background-size:cover;
+ background-position:center;
+  padding: 50px;
+  text-align:center;
+ color:rgb(16,16,25);
+}
+.arive{
+  text-align: center;
+  font-size:2.4rem;
+  margin-top:20px;
+}
+#header h2{
+  padding: 10px;
+  font-size:28px;
+  color:black;
+  
+}
+#header p{
+  padding: 10px;
+  line-height:1.5;
+  font-weight:800;
+  font-size:23px;
+  color:rgb(16,16,28);
+}
+.submit{
+padding: 10px 30px;
+  border-radius: 5px;
+  border-style: none;
+  background:gray;
+  color:white;
+  font-weight:700;
+  
+}
+.laptop-list{
+  text-align: center;
+  padding: 50px;
+}
+.laptop-list p{
+  font-size:00.9rem;
+}
+.list{
+  background: white;
+box-shadow:rgba(17,12,46,0.15) 0px 48px 100px 0px;
+  line-height: 1.5;
+  padding-bottom:30px;
+  margin-bottom:20px;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+}
+.list img{
+  width:100%;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
+.list h3{
+  padding: 10px;
+}
+.list h6{
+  width:70%;
+  margin-left:15%;
+}
+.list button{
+  margin-top: 20px;
+  background-image:url('pictures/teddy.jpg');
+  background-repeat: no-repeat;
+}
+.list li{
+  margin-top:10px;
+  font-size: 13px;
+  opacity:50%;
+  line-height:1.2;
+}
+
+#comment{
+  padding: 40px;
+  line-height: 1.7;
+  text-align: center;
+  background: gray;
+  color: white;
+  
+}
+.box{
+  padding: 15px;
+}
+.box h3{
+  text-align:center;
+  padding:10px;
+}
+.box img{
+  width:40px;
+  height: 40px;
+  border-radius:50%;
+  border: 2px solid gray;
+} 
+h1{
+  padding: 20px;
+}
+.box p{
+  line-height:1.2;
+  font-size:0.9rem;
+  padding-left:10px;
+  padding-top:10px;
+}
+#box{
+  display:flex;
+  align-items:center;
+}
+#box h4{
+  margin-left: 10px;
+}
+
+#comment button{
+  padding:10px 20px;
+  color:white;
+  background:transparent;
+  border:1px solid white;
+  margin:10px;
+}
+.last-section{
+  background: gray;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+footer p{
+  display: inline;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+.last-section h5{
+  margin-top:30px;
+}
+
+
+@media screen and
+(max-width:898px){
+body{
+background:rgb(211,211,211, 0.3);
+}
+button{
+padding: 10px 30px;
+  border-radius: 5px;
+  border-style: none;
+  background:gray;
+  color:white;
+  font-weight:700;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background:white;
+  box-shadow: rgba(17,12,46,0.15) 0px 48px 100px 0px;
+  position: sticky;
+  top: 0;
+  font-size:15px;
+  padding: 6px;
+}
+#submit{
+  padding: 10px 30px;
+  border-radius: 5px;
+  border-style: none;
+  background:crimson;
+  color:white;
+  font-size:12px;
+  font-weight:700;
+  margin-right:5px;
+}
+#header{
+  background-image:url('pictures/malu.jpg');
+  background-repeat:no-repeat;
+ background-size: cover;
+ background-position:center;
+  text-align: center;
+  font-weight: 600;
+  
+}
+.submit{
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size:17px;
+  border-style: none;
+  background:gray;
+  color:white;
+  font-weight:700;
+}
+
+}
+#header h2{
+  padding:5px;
+  color:black;
+  font-size:25px;
+}
+
+
+@media screen and
+(min-width:900px) and
+(max-width:1024px){
+  body{
+    background:rgb(211,211,211, 0.3);
+  }
+  #header h2{
+    font-size:4.4rem;
+    padding: 20px;
+  }
+  #header p{
+    font-size:2.7rem;
+    font-weight:500;
+    padding:20px;
+  }
+  #submit{
+padding: 20px 40px;
+  border-radius: 5px;
+  border-style: none;
+  background:crimson;
+  color:white;
+  font-size:17px;
+  font-weight:700;
+  margin-right:20px;
+  }
+  span{
+    font-size:50px;
+  }
+.box{
+  padding:30px;
+  margin-bottom:30px;
+}
+.box h1{
+  text-align: center;
+  padding:20px;
+}
+.box h4{
+  font-size:1.8rem;
+}
+.box img{
+  width:100px;
+  height: 100px;
+  border-radius:50%;
+  border: 2px solid gray;
+}
+.box p{
+  font-size:0.9rem;
+  opacity:50%;
+}
+.laptop-list{
+  display: grid;
+  grid-template-columns:1fr  1fr;
+  gap:30px;
+  margin-top: 60px;
+}
+.list{
+  background: white;
+box-shadow:rgba(17,12,46,0.15) 0px 48px 100px 0px;
+  line-height: 1.5;
+  width:80%;
+  padding-bottom:40px;
+  border-bottom-right-radius:8px;
+  border-bottom-left-radius:8px;
+  margin:20px;
+}
+.list img{
+  width:100%;
+  height:300px;
+border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
+.list li{
+  font-size:12px;
+}
+.submit{
+ padding:12px 20px;
+  border-radius: 7px;
+  border-style: none;
+  background:crimson;
+  color:white;
+  font-weight:700;
+  
+}
+#comment{
+  padding: 60px;
+  line-height: 1.7;
+  text-align: center;
+  background: gray;
+  color: white;
+  font-size: 1.8rem;
+}
+#comment button{
+  color: white;
+  background:transparent;
+  padding:15px 25px;
+  border-radius:7px;
+}
+last-section{
+  background: gray;
+  padding: 100px;
+  color: white;
+  text-align: center;
+  font-size: 1.6rem;
+}
+a{
+  color:white;
+  text-decoration:none;
+  font-size: 1.5rem;
+}
+.last-section h5{
+  margin-top:30px;
+}
+.last-section h5{
+  margin-top:30px;
+}
+}
+ 
+@media (min-width:1024px) and
+ (max-width:1366px){
+  
+  #navbar span{
+    font-size:1.6rem;
+  }
+  #submit{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-style: none;
+    background:crimson;
+    color:white;
+    font-weight:700;
+    
+  }
+  .laptop-list{
+    text-align: center;
+    padding: 50px;
+  }
+  .laptop-list p{
+    font-size:1.9rem;
+  }
+  .list{
+    background: white;
+  box-shadow:rgba(17,12,46,0.15) 0px 48px 100px 0px;
+    line-height: 1.5;
+    padding-bottom:30px;
+    margin-bottom:20px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+  }
+  .list img{
+    width:100%;
+    height:30vh;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+  }
+  .list h3{
+    padding: 10px;
+    
+  }
+  .list h6{
+    width:70%;
+    margin-left:15%;
+   
+  }
+  
+  #comment{
+    font-size:1.8rem;
+  }
+  #comment button{
+    padding:15px 25px;
+    color:white;
+    background:transparent;
+    border:1px solid white;
+    margin:10px;
+  }
+}
+@media (min-width:1366px)  and
+ (max-width:1440px){
+   
+   #navbar span{
+    font-size:1.9rem;
+  }
+  #header h2{
+    padding: 10px;
+    font-size:2.5rem;
+    color:black;
+  }
+  #header p{
+    padding: 10px;
+    line-height:1.5;
+    font-weight:800;
+    font-size:1.9rem;
+    color:rgb(16,16,28);
+  }
+  #submit{
+    padding: 14px 30px;
+    border-radius: 5px;
+    border-style: none;
+    background:crimson;
+    color:white;
+    font-weight:700;
+  }
+  .laptop-list{
+    text-align: center;
+    padding: 50px;
+  }
+  .laptop-list p{
+    font-size:00.9rem;
+  }
+  .list{
+    background: white;
+  box-shadow:rgba(17,12,46,0.15) 0px 48px 100px 0px;
+    line-height: 1.5;
+    padding-bottom:30px;
+    margin-bottom:20px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    font-size:1.9rem;
+  }
+  .list img{
+    width:100%;
+    height:40vh;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+  }
+  .list h3{
+    padding: 10px;
+    font-size:2.5rem;
+  }
+  .list h6{
+    width:70%;
+    margin-left:15%;
+    font-size:1.8rem;
+  }
+  .list li{
+    font-size:1.7rem;
+  }
+  #comment{
+    font-size:1.6rem;
+  }
+  #comment button{
+    padding:20px 30px;
+    color:white;
+    background:transparent;
+    border:1px solid white;
+    margin:10px;
+    font-size:1.1rem;
+  }
+  a{
+    font-size:1.6rem;
+  }
+  .box{
+    padding: 15px;
+  }
+  .box h3{
+    text-align:center;
+    padding:10px;
+    font-size:2.1rem;
+  }
+  .box img{
+    width:5%;
+    height:5vh;
+    border-radius:50%;
+    border: 2px solid gray;
+  }
+  .box p{
+    font-size:1.8rem;
+  } 
+  #box h4{
+    margin-left: 10px;
+    font-size:1.98rem;
+  }
+  .last-section h5{
+    font-size:1.77rem;
+  }
+ }
